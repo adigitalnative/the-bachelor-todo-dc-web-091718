@@ -10,7 +10,7 @@ def get_first_name_of_season_winner(data, season)
     end
   end
   
-  raise "got to the end"
+  winner.split[0]  
 end
 
 def get_contestant_name(data, occupation)
