@@ -7,7 +7,7 @@ def get_first_name_of_season_winner(data, season)
   contestants.each do |contestant|
     if contestant[:status] = "Winner"
       binding.pry
-      winner = contestant[:name]
+      winner = contestant["name"]
     end
   end
   
