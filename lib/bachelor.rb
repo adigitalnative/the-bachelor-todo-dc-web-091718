@@ -10,7 +10,7 @@ def get_first_name_of_season_winner(data, season)
     end
   end
   
-  # Get the first name of the contestant
+  winner.split
 end
 
 def get_contestant_name(data, occupation)
