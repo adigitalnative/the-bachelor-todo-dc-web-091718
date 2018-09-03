@@ -14,7 +14,7 @@ def get_first_name_of_season_winner(data, season)
 end
 
 def get_contestant_name(data, occupation)
-  # code here
+  binding.pry
 end
 
 def count_contestants_by_hometown(data, hometown)
