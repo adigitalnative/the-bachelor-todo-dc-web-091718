@@ -1,5 +1,16 @@
+require 'pry'
+
 def get_first_name_of_season_winner(data, season)
-  # code here
+  winner = nil
+  
+  contestants = data[season]
+  contestants.each do |contestant|
+    if contestant[:status] = "Winner"
+      winner = contestant[:name]
+    end
+  end
+  
+  # Get the first name of the contestant
 end
 
 def get_contestant_name(data, occupation)
