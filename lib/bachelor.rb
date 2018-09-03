@@ -34,7 +34,7 @@ private
 def all_contestants(seasons)
   contestants = []
   
-  seasons.each do |season|
+  seasons.each do |season, details|
     binding.pry
   end
 end
