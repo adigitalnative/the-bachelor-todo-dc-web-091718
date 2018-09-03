@@ -31,6 +31,10 @@ end
 
 private
 
-def all_contestants(data)
+def all_contestants(seasons)
   contestants = []
+  
+  seasons.each do |season|
+    binding.pry
+  end
 end
