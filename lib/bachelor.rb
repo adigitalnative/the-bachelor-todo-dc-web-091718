@@ -7,10 +7,11 @@ def get_first_name_of_season_winner(data, season)
   contestants.each do |contestant|
     if contestant[:status] = "Winner"
       raise "bang"
+      binding.pry
       winner = contestant[:name]
     end
   end
-  binding.pry
+  
   winner.split
 end
 
