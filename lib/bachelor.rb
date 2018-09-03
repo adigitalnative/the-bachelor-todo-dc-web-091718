@@ -35,6 +35,6 @@ def all_contestants(seasons)
   contestants = []
   
   seasons.each do |season, contestants|
-    puts contestants.class
+    puts contestants.class.inspect
   end
 end
