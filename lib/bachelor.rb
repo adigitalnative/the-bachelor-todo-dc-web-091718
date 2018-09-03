@@ -9,7 +9,7 @@ def get_first_name_of_season_winner(data, season)
       winner = contestant[:name]
     end
   end
-  
+  binding.pry
   winner.split
 end
 
